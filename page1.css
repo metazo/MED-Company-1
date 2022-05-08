@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.logo{
+    color: rgb(153, 152, 152);
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+.logo span{
+    color: red;
+    margin-top: 3px;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid rgb(2, 14, 68);
+
+}
+nav h1{
+    color: #717171;
+    font-family:serif;
+    font-size: 30px;
+}
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #000;
+    margin-right: 10px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 5px;
+}
+nav .onglets a:hover{
+    color: #ff0000;
+    border-bottom: 2px solid #ff0000;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('image/maisonwall.JPEG');
+    background-size:cover;
+    color: rgb(245, 233, 233);
+    padding: 254px;
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    border-bottom: 2.5px solid rgb(255, 0, 0);
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(255, 0, 0);
+    color:rgb(255, 255, 255);
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: serif;
+    cursor: pointer;
+    margin-bottom: 78px;
+    margin-top: 78px;
+    border-radius: 15px;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:rgb(2, 14, 68);
+   color:#fff;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: rgb(2, 14, 68);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .apropos{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .apropos .gauche{
+    margin-right: 30px;
+}
+footer .apropos .droite p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
